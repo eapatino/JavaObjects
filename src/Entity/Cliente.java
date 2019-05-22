@@ -5,7 +5,18 @@ public class Cliente extends Persona{
 	public String apellido;
 	protected String documento;
    int saldo;
+   int dato;
+   
+   String x;
 	
+	public int getDato() {
+	return dato;
+}
+
+public void setDato(int dato) {
+	this.dato = dato;
+}
+
 	public String getNombre() {
 		String ap = apellido;
 		if(ap.isEmpty()) {
